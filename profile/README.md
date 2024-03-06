@@ -10,8 +10,9 @@ This is also sometimes referred to as "workflow automation."
 There are many different build systems and task runners there: `make`, `cmake`, `shell scripts`, `cargo-xtask`, `cargo-make`, `cargo-task`, `cargo-script`, `cargo-run-script`, `runner`, `python scripts`, `powershell scripts`, `cmd prompt scripts`, ...  
 Sadly there is no standard in the Rust community for now.  
 
-But I don't want to learn another meta language with weird syntax and difficult to debug.  
+But I don't want to learn another metalanguage with weird syntax that is difficult to debug.  
 I want something similar to [build.rs](https://doc.rust-lang.org/cargo/reference/build-scripts.html), so I can write my "automation tasks" in pure Rust.  
+Some kind of Rust scripting language for workflow automation.   
   
 Enter `cargo-auto`, `cargo_auto_lib`, `dev_bestia_cargo_completion` and `automation_tasks_rs`.  
 A simple system for workflow automation in pure Rust.  
@@ -20,7 +21,7 @@ A simple system for workflow automation in pure Rust.
 
 I recommend using the CRDE - Containerized Rust Development Environment to write Rust projects. Follow the instructions here <https://github.com/bestia-dev/docker_rust_development>.  
 
-It is an isolated development environment that will not mess with you system.  
+It is an isolated development environment that will not mess with your system.  
 It will work on Linux (tested on Debian) and inside WSL (Windows Subsystem for Linux).
 
 You just need to install the newer alternative to Docker: [podman](https://podman.io/). Then you download the prepared container image from DockerHub (3GB). And then a little juggling with ssh keys. All this is simplified by running a few bash scripts. Just follow the easy instructions.  
@@ -53,5 +54,7 @@ code automation_tasks_rs
 ## Based on simple functions
 
 All the functions of `cargo_auto_lib` have extensive help/docs to describe how they work.  
-This is nice when you use a code editor with IntelliSense like VSCode.  
-Inside the `automation_tasks_rs` you can write your own code. No limits there. It is just Rust.  
+This is very nice when you use a code editor with Rust-analyzer.  
+Inside the `automation_tasks_rs` you can write your own code. 
+
+No limits there. It is just Rust.  
