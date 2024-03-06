@@ -19,7 +19,9 @@ A simple system for workflow automation in pure Rust.
 
 ## CRDE - Containerized Rust Development Environment
 
-I recommend using the CRDE - Containerized Rust Development Environment to write Rust projects. Follow the instructions here <https://github.com/bestia-dev/docker_rust_development>.  
+I recommend using the CRDE - Containerized Rust Development Environment to write Rust projects.  
+Follow the instructions here  
+<https://github.com/bestia-dev/docker_rust_development>.  
 
 It is an isolated development environment that will not mess with your system.  
 It will work on Linux (tested on Debian) and inside WSL (Windows Subsystem for Linux).
