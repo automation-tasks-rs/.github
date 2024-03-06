@@ -2,6 +2,11 @@
 
 ***Automation tasks coded in Rust language for the workflow of Rust projects***
 
+ ![maintained](https://img.shields.io/badge/maintained-green)
+ ![ready-for-use](https://img.shields.io/badge/ready_for_use-green)
+ ![rustlang](https://img.shields.io/badge/rustlang-orange)
+ ![make](https://img.shields.io/badge/make-orange)
+
 Cargo is a great tool for building Rust projects. It has all the basics: `cargo build`, `cargo build --release`, `cargo fmt`, `cargo test`, `cargo doc`,...
 
 But sometimes we need to do more things like copying some files, publishing to FTP, or entering long commands. These repetitive tasks must be automated.  
