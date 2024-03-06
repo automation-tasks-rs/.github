@@ -28,9 +28,14 @@ You just need to install the newer alternative to Docker: [podman](https://podma
 
 The container image contains cargo, rustc, wasm-pack, basic-http-server, cargo-auto and other utils that a Rust project needs.  
 
-## Workflow with automation_tasks_rs and cargo-auto
+## cargo auto new_cli
 
-For easy workflow, use the automation tasks that are already coded in the sub-project `automation_tasks_rs`. This is a basic workflow:
+Use `cargo auto new_cli hello_world` to create a fully functional Rust project.  
+It has a moderately complex structure for real life Rust CLI projects. It includes the automation_tasks_rs workflow.
+
+## Workflow with automation_tasks_rs
+
+Automation tasks are already coded in the sub-project `automation_tasks_rs`. This is a basic workflow:
 
 ```bash
 cargo auto build
