@@ -2,6 +2,9 @@
 
 ***automation-tasks-rs/.github is a special repository***
 
+ ![logo](https://raw.githubusercontent.com/automation-tasks-rs/cargo-auto/main/images/logo/logo_cargo_auto.svg)
+ automation-tasks-rs is a "GitHub organization" that groups [multiple repositories](https://github.com/orgs/automation-tasks-rs/repositories?q=sort%3Aname-asc) together
+
  ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 The /profile/README.md will appear on the organization's profile.
