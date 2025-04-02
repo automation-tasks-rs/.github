@@ -10,7 +10,7 @@
  ![logo](https://raw.githubusercontent.com/automation-tasks-rs/cargo-auto/main/images/logo/logo_cargo_auto.svg)
  automation-tasks-rs is a "GitHub organization" that groups [multiple repositories](https://github.com/orgs/automation-tasks-rs/repositories?q=sort%3Aname-asc) together
 
- [![Lines in md](https://img.shields.io/badge/Lines_in_markdown-83-green.svg)](https://github.com/automation-tasks-rs/automation-tasks-rs/)
+ [![Lines in md](https://img.shields.io/badge/Lines_in_markdown-83-green.svg)](https://github.com/automation-tasks-rs)
  ![automation-tasks-rs](https://bestia.dev/webpage_hit_counter/get_svg_image/1940127600.svg)
 
 Cargo is a great tool for building Rust projects. It has all the basics: `cargo build`, `cargo build --release`, `cargo fmt`, `cargo test`, `cargo doc`,...
@@ -25,9 +25,9 @@ But I don't want to learn another metalanguage with weird syntax that is difficu
 I want something similar to [build.rs](https://doc.rust-lang.org/cargo/reference/build-scripts.html), so I can write my "automation tasks" in pure Rust.  
 Some kind of Rust scripting language for workflow automation.  
   
-Enter a simple system for workflow automation in pure Rust: 
+Enter a simple system for workflow automation in pure Rust:
 
-- [automation_tasks_rs](https://github.com/automation-tasks-rs/automation-tasks-rs)
+- [automation_tasks_rs](https://github.com/automation-tasks-rs)
 - [cargo-auto](https://github.com/automation-tasks-rs/cargo-auto)
 - [cargo_auto_lib](https://github.com/automation-tasks-rs/cargo_auto_lib)
 - [dev_bestia_cargo_completion](https://github.com/automation-tasks-rs/dev_bestia_cargo_completion)
