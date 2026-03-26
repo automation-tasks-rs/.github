@@ -1,7 +1,7 @@
-# automation-tasks-rs/.github
+# automation_tasks_rs
 
-**automation-tasks-rs/.github is a special repository.**
+## ⚠️ Attention! I am migrating from GitHub to Codeberg in 2026!  
 
-.github is a special repository for creating the readme of the Organization.  
+<https://codeberg.org/automation-tasks-rs>
 
-The profile/README.md will appear on the organization's profile.
+***Automation tasks coded in Rust language for the workflow of Rust projects***
